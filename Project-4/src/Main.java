@@ -21,6 +21,7 @@ public class Main {
         finalamount=principal*Math.pow(1+rate/compoundtime, compoundtime*years);
         System.out.printf("The amount after %d years is %.2f",years,finalamount);
 
+        sc.close();
     }
     
 }
